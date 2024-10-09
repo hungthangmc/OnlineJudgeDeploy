@@ -1,21 +1,19 @@
-[简体中文](https://github.com/QingdaoU/OnlineJudgeDeploy/blob/2.0/README.md) | English
-
 ## Environmental preparation (Linux)
 
-+ System: Ubuntu 18.04 LTS
++ System: Ubuntu 24.04 LTS
 
 1. Install the necessary dependencies
 
     ```bash
-    sudo apt-get update
-    sudo apt-get install -y vim python3-pip curl git
-    pip3 install --upgrade pip
-    pip install docker-compose
+    sudo apt update
+    sudo apt install -y curl git
     ```
 
-2. Install Docker
+2. Install Docker & Docker compose
 
-    Install using script: `sudo curl -sSL get.docker.com | sh`
+    ```bash
+    sudo snap install docker
+    ```
 
     Other installation methods: [https://docs.docker.com/install/](https://docs.docker.com/install/)
 
